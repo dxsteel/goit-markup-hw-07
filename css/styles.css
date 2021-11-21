@@ -59,23 +59,30 @@ body {
 }
 
 /* навигация */
+.page-header {
+  margin: auto;
+  background-color: #ffffff;
+}
 .page-header--active {
   margin: auto;
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
-
-.page-header {
-  margin: auto;
-  background-color: #ffffff;
-}
-
 .page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -84,36 +91,33 @@ body {
   text-decoration: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-li {
+.site-nav__item {
   margin-right: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
 }
-.item .item-li:last-child {
+.site-nav__item:last-child {
   margin-right: 0px;
 }
 
-.item-contacts {
-  padding-left: auto;
-}
-
-.site-nav:hover,
-.site-nav:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
-.site-nav.current {
+.site-nav__link--current {
   color: var(--accent-color);
 }
-.contacts-header {
+.site-nav__contacts {
   display: flex;
+  text-decoration: none;
   align-items: center;
   color: var(--p-text-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav.current::after {
+.site-nav__link--current::after {
   position: absolute;
   bottom: 0;
   content: "";
@@ -123,13 +127,23 @@ body {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
+.icon-contact {
+  margin-right: 10px;
+  fill: var(--p-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.site-nav__link:hover > .icon-contact,
+.site-nav__link:focus > .icon-contact {
+  fill: var(--accent-color);
+}
 /* футер */
 
 .page-footer {
   background-color: #2f303a;
 }
 .contacts-footer {
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -137,16 +151,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-contact {
-  margin-right: 10px;
-  fill: var(--p-text-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contacts-header:hover > .icon-contact,
-.contacts-header:focus > .icon-contact {
-  fill: var(--accent-color);
 }
 
 .address {
