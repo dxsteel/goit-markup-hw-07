@@ -59,13 +59,13 @@ body {
   text-decoration: none;
   margin-right: 93px;
 }
-.textcolor-web {
+.header__logo--accent {
   color: var(--accent-color);
 }
-.textcolor-studio {
+.header__logo--primary {
   color: var(--primary-text-color);
 }
-.textcolor-studio-footer {
+.footer__logo--white {
   color: #ffffff;
 }
 .site-nav {
