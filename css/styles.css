@@ -1,10 +1,10 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --p-text-color: #757575;
   --accent-color: #2196f3;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -32,10 +32,10 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* навигация */
-.header {
+/* .header {
   margin: auto;
   background-color: #ffffff;
 }
@@ -64,11 +64,9 @@ body {
 }
 .header__logo--primary {
   color: var(--primary-text-color);
-}
-.footer__logo--white {
-  color: #ffffff;
-}
-.site-nav {
+} */
+
+/* .site-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,19 +128,19 @@ body {
 .site-nav__link:hover > .site-nav__icon-contact,
 .site-nav__link:focus > .site-nav__icon-contact {
   fill: var(--accent-color);
-}
+} */
 
 /* страница студия */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #ffffff;
-}
+} */
 
 /* эффективные решения */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
@@ -188,14 +186,14 @@ body {
   margin-left: auto;
   margin-top: 30px;
   display: flex;
-}
+} */
 
 /* достоинства команды */
 
-.section__benefits {
+/* .section__benefits {
   padding-bottom: 0px;
-}
-.feature {
+} */
+/* .feature {
   display: flex;
 }
 .feature__list {
@@ -233,11 +231,11 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 0px;
-}
+} */
 
 /* чем мы занимаемся */
 
-.section__title {
+/* .section__title {
   color: var(--primary-text-color);
   font-style: 400;
   font-weight: 700;
@@ -277,11 +275,11 @@ body {
   color: #ffffff;
   height: 70px;
   width: 370px;
-}
+} */
 
 /* команда */
 
-.section--background-grey {
+/* .section--background-grey {
   background-color: #f5f4fa;
 }
 .team {
@@ -355,11 +353,11 @@ body {
 }
 .team__social-link--position:hover .team__icon {
   fill: #ffffff;
-}
+} */
 
 /* секция "постоянные клиенты" */
 
-.company {
+/* .company {
   display: flex;
   justify-content: center;
 }
@@ -400,7 +398,7 @@ body {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
   transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* футер */
 
@@ -411,7 +409,9 @@ body {
   display: flex;
   align-items: baseline;
 }
-
+.footer__logo--white {
+  color: #ffffff;
+}
 /* контакты футера */
 
 .footer__contacts {
@@ -772,13 +772,13 @@ body {
   padding-bottom: 40px;
 }
 
-textarea {
+/* textarea {
   resize: none;
   outline: none;
 }
 input {
   outline: none;
-}
+} */
 
 .form__field {
   position: relative;
