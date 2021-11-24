@@ -402,7 +402,7 @@ body {
 
 /* футер */
 
-.footer {
+/* .footer {
   background-color: #2f303a;
 }
 .footer__container {
@@ -411,9 +411,9 @@ body {
 }
 .footer__logo--white {
   color: #ffffff;
-}
+} */
 /* контакты футера */
-
+/* 
 .footer__contacts {
   display: block;
 }
@@ -453,10 +453,10 @@ body {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.7;
-}
+} */
 
 /* ссылки футера */
-
+/* 
 .footer__links {
   padding-left: 70px;
   padding-top: 72px;
@@ -511,10 +511,10 @@ body {
 .footer__social-links--background-hover:hover {
   background-color: var(--accent-color);
   fill: #ffffff;
-}
+} */
 
 /* форма футера */
-
+/* 
 .footer__form {
   display: flex;
   align-items: center;
@@ -576,22 +576,22 @@ body {
   margin-left: 10px;
   margin-bottom: 92px;
   margin-top: 133px;
-}
+} */
 
 /* страница портфолио */
 
 /* работы команды */
-.button--position {
+/* .button-product--position {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.button__portfolio:focus,
-.button__portfolio:hover {
+.button-product:focus,
+.button-product:hover {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.button__portfolio {
+.button-product {
   font-family: Roboto;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
@@ -658,7 +658,7 @@ body {
 }
 
 /* скрытый текст */
-.product__hidden-text {
+/* .product__hidden-text {
   position: absolute;
   top: 63px;
   left: 24px;
@@ -696,11 +696,11 @@ body {
 .product__card:hover .product__thumb::before {
   transform: translateY(0);
   opacity: 1;
-}
+}  */
 
 /* модальное окно */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -770,7 +770,7 @@ body {
   padding-left: 41px;
   padding-right: 39px;
   padding-bottom: 40px;
-}
+} */
 
 /* textarea {
   resize: none;
@@ -780,7 +780,7 @@ input {
   outline: none;
 } */
 
-.form__field {
+/* .form__field {
   position: relative;
   display: block;
 }
@@ -829,11 +829,11 @@ input {
   fill: var(--accent-color);
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* комментарии, условия соглашения, чекбокс */
 
-.form__field--feedback {
+/* .form__field--feedback {
   display: flex;
   flex-direction: column;
 }
@@ -942,4 +942,4 @@ input {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-}
+} */

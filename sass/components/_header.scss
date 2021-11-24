@@ -53,7 +53,7 @@
     line-height: 1.15;
     letter-spacing: 0.02em;
     text-decoration: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include animation;
 
     &:hover,
     &:focus {
@@ -98,11 +98,11 @@
   text-decoration: none;
   align-items: center;
   color: $p-text-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include animation;
 }
 
 .site-nav__icon-contact {
   margin-right: 10px;
   fill: $p-text-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include animation;
 }
